@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/coldbay/typescript_blockchain/issues"
   },
-  "homepage": "https://github.com/coldbay/typescript_blockchain#readme"
+  "homepage": "https://github.com/coldbay/typescript_blockchain#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
 }

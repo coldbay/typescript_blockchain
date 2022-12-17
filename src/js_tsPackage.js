@@ -1,4 +1,4 @@
-//프로젝트에서 js,ts를 모두 사용할때 js에서 ts의 보호장치를 ts로 변환없이 사용방법 <- allowJs=true 필요
+//프로젝트에서 js,ts를 모두 사용할때 js에서 ts의 보호장치를 ts로 변환없이 사용방법(JSDoc) <- allowJs=true 필요
 // @ts-check
 
 /**
