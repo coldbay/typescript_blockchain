@@ -39,7 +39,7 @@ class BlockChain {
         this.blocks.push(newBlock)
     }
     public getBlocks(){
-        return [...this.blocks] // 전개 연산자
+        return [...this.blocks] // private한 blocks 배열을 직접 리턴하는 것이 아닌 전개 연산자으로 blocks의 요소 내용만 같은 배열을 리턴
     }
 }
 
